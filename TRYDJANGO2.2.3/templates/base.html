@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+	<link href="{% static 'css/mycss.css' %}" rel="stylesheet" type="text/css">
+     <link href= "{% static 'my_static/bootstrap.min.css' %}" rel="stylesheet">
+
+  <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap.css'%}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap-grid.css'%}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap-grid.min.css'%}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap-reboot.min.css'%}" rel="stylesheet">
+
+
+ <link href="{% static 'css/bootstrap-reboot.min.css'%}" rel="stylesheet">
+  <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet">
+	<title></title>
+</head>
+<body>
+	{% include 'messages_display.html' %}
+	<div class="container">
+		
+{% block content%}
+{% endblock content %}
+	</div>
+
+
+
+
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+ <script src="{% static 'js/jquery-3.4.1.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js//bootstrap.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+<script src="{% static 'js/myjquey.js' %}"></script>
+</body>
+</html>

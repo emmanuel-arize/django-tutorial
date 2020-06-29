@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\posts",
+    "\\static",
+    "\\static\\js",
+    "\\static_cdn",
+    "\\templates",
+    "\\templates\\posts",
+    "\\trydjango22"
+  ],
+  "SelectedNode": "\\trydjango22\\wsgi.py",
+  "PreviewInSolutionExplorer": false
+}
